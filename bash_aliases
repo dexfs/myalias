@@ -6,19 +6,11 @@ command_exists () {
 
 ALIASES_HOME=$HOME
 
-for FILE_PREFIX in  apache \
-                    cli \
-                    git \
-                    github \
+for FILE_PREFIX in  cli \
                     composer \
-                    symfony \
-                    phpunit \
-                    cordova \
-                    django \
+                    docker \
+                    laravel \
                     npm \
-                    loopback \
-                    gulp \
-                    ruby_on_rails \
                     yarn
 do
   source $ALIASES_HOME/.aliases/bash/${FILE_PREFIX}_aliases
