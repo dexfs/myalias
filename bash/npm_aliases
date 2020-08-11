@@ -1,0 +1,7 @@
+# Npm alias
+alias np='npm'
+
+# Npm install alias
+alias npi='npm install'
+alias npis='npm install --save'
+alias npig='npm install -g'

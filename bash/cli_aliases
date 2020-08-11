@@ -1,0 +1,16 @@
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias reloadcli="source $HOME/.zshrc"
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias publicip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+
+# functions
+*** This one opens a PR from the current branch
+function openpr() {
+  br=`git branch | grep "*"`
+  repo=$1
+  parentBranch=$2
+
+  open -a /Applications/Google\ Chrome.app  https://github.com/${repo/* /}/compare/${parentBranch/* /}...themsaid:${br/* /}\?expand\=1
+}
+

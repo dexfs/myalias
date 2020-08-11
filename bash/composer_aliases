@@ -1,0 +1,13 @@
+# PHP
+alias cou='composer update'
+alias coi='composer install'
+alias coda='composer dump-autoload -o'
+
+
+t() {
+  if [ -f vendor/bin/phpunit ]; then
+    vendor/bin/phpunit "$@"
+  else
+    phpunit "$@"
+  fi
+}
