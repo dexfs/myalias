@@ -5,7 +5,7 @@ Clone it into .aliases folder in your home directory:
 
 ```bash
 cd ~
-git clone https://github.com/algotech/dotaliases.git .aliases
+git clone https://github.com/dexfs/myalias .aliases
 
 # Enable bash aliases for new terminals: add to ~/.bash_profile or ~/.profile
 source ~/.aliases/bash_aliases
