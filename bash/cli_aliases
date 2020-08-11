@@ -5,7 +5,7 @@ alias publicip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 
 # functions
-*** This one opens a PR from the current branch
+#*** This one opens a PR from the current branch
 function openpr() {
   br=`git branch | grep "*"`
   repo=$1

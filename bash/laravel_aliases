@@ -6,11 +6,11 @@ alias migrate:rs='php artisan migrate:refresh --seed'
 
 
 # laravel functions
-artisan() {
-  if [ -f bin/artisan ]; then
-    php bin/artisan "$@"
-  else
-    php artisan "$@"
-  fi
-}
+# artisan() {
+#   if [ -f bin/artisan ]; then
+#     php bin/artisan "$@"
+#   else
+#     php artisan "$@"
+#   fi
+# }
 
